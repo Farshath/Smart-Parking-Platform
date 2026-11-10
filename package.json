@@ -1,0 +1,24 @@
+{
+  "name": "smart-parking-slot-rental-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Smart Parking Slot Rental & Availability Platform - Monorepo (Unified Mentor Internship)",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:backend": "npm --prefix backend run build",
+    "build:frontend": "npm --prefix frontend run build",
+    "lint:frontend": "npm --prefix frontend run lint",
+    "type-check:backend": "npm --prefix backend run type-check",
+    "test:backend": "npm --prefix backend run test"
+  },
+  "keywords": [
+    "smart-parking",
+    "nextjs",
+    "express",
+    "mongodb",
+    "typescript"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}
